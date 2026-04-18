@@ -3,12 +3,12 @@
 
 /* Variables */
 :root {
-    --bg-color: #0a192f;
-    --second-bg-color: #172a45;
-    --text-color: #e6f1ff;
+    --bg-color: #050d1a;
+    --second-bg-color: #0a1525;
+    --text-color: #ccd6f6;
     --main-color: #64ffda;
     --whatsapp-color: #25D366;
-    --overlay-color: rgba(10, 25, 47, 0.85);
+    --overlay-color: rgba(5, 13, 26, 0.9);
 }
 
 /* Base Styles */
@@ -251,8 +251,9 @@ section {
 /* Projects Section */
 .projects-container {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
     gap: 2.5rem;
+    justify-items: center;
 }
 
 .project-box {
