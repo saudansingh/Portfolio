@@ -505,3 +505,35 @@ section {
         width: 90vw;
     }
 }
+
+
+/* Container spacing to prevent overlap with the Hire Me button */
+.social-media {
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;           /* Spacing between each icon */
+    margin-top: 2rem;
+    margin-bottom: 3rem;    /* Pushes the Hire Me button down so icons aren't hidden */
+}
+
+/* Make icons larger and styled */
+.social-media a {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 4.5rem;          /* Width of icon circle */
+    height: 4.5rem;         /* Height of icon circle */
+    background: transparent;
+    border: .2rem solid #0ef; /* Border line (change color to match your theme) */
+    border-radius: 50%;
+    font-size: 2.5rem;      /* Increases icon size */
+    color: #0ef;            /* Icon color */
+    transition: .5s ease;
+}
+
+/* Hover effect */
+.social-media a:hover {
+    background: #0ef;
+    color: #1f242d;
+    box-shadow: 0 0 1rem #0ef;
+}
